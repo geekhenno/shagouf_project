@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shagouf_project/gird_and_list/grid_view_screen.dart';
 import 'package:shagouf_project/home.dart';
 import 'package:shagouf_project/todo_list.dart';
 
@@ -19,7 +20,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: "Flutter",
-      home: TodoList(),
+      home: GridViewScreen(),
     );
   }
 }
